@@ -1,0 +1,9 @@
+# Because fuck node_modules
+node_modules/
+
+# Also no pnpm-lock file
+pnpm-lock.yaml
+
+# Or the artifact
+build/index.js
+src/index.js
