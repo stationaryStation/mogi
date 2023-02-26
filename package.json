@@ -1,10 +1,11 @@
 {
   "name": "mogi",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "dumb revolt selfbot as replacement for /global amogus",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "tsc && node .",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
